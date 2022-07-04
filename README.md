@@ -9,7 +9,7 @@ It's a repro for https://github.com/vimeo/psalm/issues/8215
 1. `composer install`
 1. `./vendor/bin/psalm`
 1. see it passes
-1. Remove `,<4.24.0` from `com
+1. Remove `,<4.24.0` from `composer.json`
 1. `composer update`
 1. `./vendor/bin/psalm`
 1. Now see
